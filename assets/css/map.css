@@ -1,0 +1,7 @@
+/* /assets/css/map.css */
+.map-wrap{display:flex;gap:18px;align-items:flex-start}
+.india-svg{width:70%;height:auto;border:1px solid #eee;background:#fff}
+.state-panel{width:30%;min-width:280px;background:#fff;border:1px solid #eee;border-radius:12px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
+.state-panel.hidden{display:none}
+.state-panel h3{margin:0 0 8px}
+.close{float:right;border:0;background:transparent;font-size:18px;cursor:pointer}

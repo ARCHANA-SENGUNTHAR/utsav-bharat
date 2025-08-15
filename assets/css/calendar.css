@@ -1,0 +1,7 @@
+/* /assets/css/calendar.css */
+#festivalsContainer.grid .card{transition:transform .12s ease}
+#festivalsContainer.grid .card:hover{transform:translateY(-3px)}
+#festivalsContainer.list{display:block}
+#festivalsContainer.list .card{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+#festivalsContainer.list .card img{width:140px;flex:0 0 140px;height:100px}
+.btn-small{padding:6px 10px;border-radius:10px;border:1px solid #e5e7eb;background:#fff}

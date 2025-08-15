@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Utsav Bharat — Festivals & Culture</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    /* Ensure Leaflet map is visible */
+    #leafletMap { width: 100%; height: 500px; z-index: 0; }
+    /* Small hover helper (non-intrusive) */
+    .info {
+      position: absolute; top: 10px; right: 10px; z-index: 500;
+      background:#fff; padding:8px 10px; border-radius:8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08); font: 13px/1.3 system-ui, Arial, sans-serif;
+    }
+    .festival-card { display:flex; gap:.75rem; padding:.5rem; border-radius:12px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,.06); margin:.5rem 0; }
+    .festival-card img { width:110px; height:70px; object-fit:cover; border-radius:8px; background:#f2f7ff; }
+    .festival-card h3 { margin:0 0 .25rem; font-size:1rem; }
+    .festival-card small.muted { color:#6b7280; display:block; margin-bottom:.25rem; }
+    .state-panel.hidden { display:none; }
+  </style>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>UTSAV BHARAT</h1>
+      <p class="subtitle">Explore India — festivals, rituals & cultural highlights</p>
+    </div>
+    <nav class="top-nav">
+      <a href="#calendar">Calendar</a>
+      <a href="#map">Map</a>
+      <a href="#culture">Culture</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>Discover Festivals Across Every State & UT</h2>
+        <p class="lead">Click a state on the interactive map or browse the calendar by month.</p>
+        <div class="cta-row">
+          <a class="btn" href="#calendar">Open Calendar</a>
+          <a class="btn ghost" href="#map">Open Map</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <!-- decorative -->
+        <svg viewBox="0 0 120 80" class="hero-deco" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="6" width="28" height="18" rx="3" fill="#e6f2ff"/>
+          <rect x="34" y="6" width="26" height="18" rx="3" fill="#e6f2ff"/>
+          <rect x="62" y="6" width="56" height="34" rx="3" fill="#e6f2ff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Calendar -->
+    <section id="calendar" class="panel">
+      <div class="panel-header">
+        <h2>Festival Calendar</h2>
+        <div class="controls">
+          <select id="monthSelect" aria-label="Select month">
+            <!-- options filled in calendar.js -->
+          </select>
+          <input id="searchInput" placeholder="Search festival or state..." />
+          <div class="view-toggle">
+            <button id="gridView" class="active">Grid</button>
+            <button id="listView">List</button>
+          </div>
+        </div>
+      </div>
+      <div id="festivalsContainer" class="grid"></div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="panel">
+      <div class="panel-header">
+        <h2>Interactive Map</h2>
+        <p class="muted">Click a state to view its festival highlights.</p>
+      </div>
+
+      <div class="map-area" style="position:relative">
+        <div id="map-wrapper">
+          <!-- Leaflet Map only (SVG removed earlier as you requested) -->
+          <div id="leafletMap"></div>
+        </div>
+
+        <aside id="statePanel" class="state-panel hidden" aria-live="polite">
+          <button id="closePanel" class="close">✕</button>
+          <h3 id="stateTitle">State</h3>
+          <div id="stateFestivals" class="festival-cards"></div>
+        </aside>
+      </div>
+    </section>
+    <!-- Culture quick -->
+    <section id="culture" class="panel">
+      <h2>Culture & Dances</h2>
+      <div class="culture-grid">
+        <div class="card">
+          <h3>Classical Dances</h3>
+          <ul>
+            <li>Bharatanatyam — Tamil Nadu</li>
+            <li>Kathak — Uttar Pradesh</li>
+            <li>Odissi — Odisha</li>
+            <li>Kathakali — Kerala</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Rituals & Specialities</h3>
+          <p class="muted">Temple rituals, harvest rites, folk processions and culinary specialties — region-wise highlights at your fingertips.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Utsav Bharat — HackSocial submission • Built with ❤️</small>
+  </footer>
+
+  <!-- Scripts: data first -->
+  <script src="assets/js/festivals.js"></script>
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/map.js"></script>
+</body>
+</html>

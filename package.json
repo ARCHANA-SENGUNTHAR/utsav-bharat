@@ -1,0 +1,17 @@
+{
+  "name": "utsav-bharat",
+  "version": "1.0.0",
+  "main": "geojson-to-svg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "fs-extra": "^11.3.1",
+    "topojson-client": "^3.1.0"
+  }
+}
