@@ -1,7 +1,65 @@
 /* /assets/css/map.css */
-.map-wrap{display:flex;gap:18px;align-items:flex-start}
-.india-svg{width:70%;height:auto;border:1px solid #eee;background:#fff}
-.state-panel{width:30%;min-width:280px;background:#fff;border:1px solid #eee;border-radius:12px;padding:12px;box-shadow:0 10px 30px rgba(0,0,0,.06)}
-.state-panel.hidden{display:none}
-.state-panel h3{margin:0 0 8px}
-.close{float:right;border:0;background:transparent;font-size:18px;cursor:pointer}
+.map-wrap {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+/* Leaflet Map */
+#leafletMap {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  z-index: 0; /* map stays below */
+}
+
+/* Floating State Panel */
+#statePanel {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  max-height: 90%;
+  overflow-y: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  padding: 1rem;
+  z-index: 1000; /* above map */
+}
+
+#statePanel.hidden {
+  display: none;
+}
+
+#statePanel h3 {
+  margin: 0 0 8px;
+}
+
+#statePanel .close {
+  float: right;
+  border: 0;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* State labels on map */
+.state-label {
+  font: 11px/1.2 "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+  color: #111;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  text-align: center;
+  text-shadow: 0 0 2px #fff;
+  pointer-events: none;
+}
+
+/* Optional: hide labels when zoomed out */
+.leaflet-zoom-5 .state-label,
+.leaflet-zoom-4 .state-label {
+  display: none;
+}
