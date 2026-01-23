@@ -1,4 +1,4 @@
-# 🎉 Utsav Bharat – Discover India’s Festivals, Traditions & Heritage
+#  Utsav Bharat – Discover India’s Festivals, Traditions & Heritage
 
 Welcome to **Utsav Bharat**, an interactive and visually engaging web application designed to help users **explore India’s vibrant festivals, traditions, and cultural heritage**. 
 With a **dynamic festival calendar, interactive cultural map, and regional highlights**, Utsav Bharat brings India’s rich diversity to life in a fun, educational, and immersive way.  
@@ -73,11 +73,6 @@ that brings India’s heritage to life in an educational, fun, and visually enga
 - Integrated a dynamic calendar, interactive map, and cultural highlights seamlessly.
 - Built a fully responsive and interactive website using only HTML, CSS, and JavaScript.
 - Provided a user-friendly platform to explore all 28 states and 8 union territories.
-
----
-### 🙏 Acknowledgements
-
-This project is proudly presented by Deepika and Archana for the HackSocial Hackathon 2025.
 
 ---
 ## 📬 Contact
