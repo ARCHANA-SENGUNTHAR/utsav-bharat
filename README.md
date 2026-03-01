@@ -3,9 +3,9 @@
 Welcome to **Utsav Bharat**, an interactive and visually engaging web application designed to help users **explore India’s vibrant festivals, traditions, and cultural heritage**. 
 With a **dynamic festival calendar, interactive cultural map, and regional highlights**, Utsav Bharat brings India’s rich diversity to life in a fun, educational, and immersive way.  
 
-### Check out our Website here: [Live Website](https://utsav-bharat.netlify.app/)
+### Check out our Website here: 👉🏻[Live Website](https://utsav-bharat.netlify.app/)
 
-### Demo Video: [Watch here](https://youtu.be/kZQwcp9VRZ0)
+### Demo Video: 👉🏻[Watch here](https://youtu.be/kZQwcp9VRZ0)
 
 ---
 
