@@ -11,13 +11,19 @@ With a **dynamic festival calendar, interactive cultural map, and regional highl
 
 ## 🚀 Features
 
-- ✅ Interactive **Festival Calendar** with month-wise filtering  
-- ✅ **Cultural Map of India** – click on any state or union territory to explore festivals, dances, foods, and rituals  
-- ✅ **Cultural Highlights** showcasing each region’s unique traditions  
-- ✅ Responsive and visually appealing **UI with images and SVG map interactions**  
-- ✅ Built entirely using **HTML, CSS, and JavaScript** for lightweight performance  
-- ✅ Fully dynamic content powered by structured JavaScript objects  
-- ✅ Explore **all 28 states and 8 union territories** easily  
+✅ Interactive **Festival Calendar** with month-wise filtering  
+
+✅ **Cultural Map of India** – click on any state or union territory to explore festivals, dances, foods, and rituals 
+
+✅ **Cultural Highlights** showcasing each region’s unique traditions  
+
+✅ Responsive and visually appealing **UI with images and SVG map interactions** 
+
+✅ Built entirely using **HTML, CSS, and JavaScript** for lightweight performance  
+
+✅ Fully dynamic content powered by structured JavaScript objects  
+
+✅ Explore **all 28 states and 8 union territories** easily  
 
 ---
 
