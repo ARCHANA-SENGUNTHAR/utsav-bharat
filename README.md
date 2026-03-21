@@ -84,11 +84,13 @@ that brings India’s heritage to life in an educational, fun, and visually enga
 ## 📬 Contact
 
  **Archana Sengunthar**
-📧 Email: [ARCHANA GURUSAMY](mailto:archanagurusamy648@gmail.com)  
-🔗 GitHub: [ARCHANA GURUSAMY](https://github.com/ARCHANA-SENGUNTHAR)
+ 
+  📧 Email: [ARCHANA GURUSAMY](mailto:archanagurusamy648@gmail.com)  
+  🔗 GitHub: [ARCHANA GURUSAMY](https://github.com/ARCHANA-SENGUNTHAR)
 
 **Deepika S**
-📧 Email: [Deepika Selvaraj](mailto:studiesfor456@gmail.com)  
-🔗 GitHub: [Deepika Selvaraj](https://github.com/Deepikasel)
+
+  📧 Email: [Deepika Selvaraj](mailto:studiesfor456@gmail.com)  
+  🔗 GitHub: [Deepika Selvaraj](https://github.com/Deepikasel)
 
 ---
